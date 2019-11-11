@@ -1,0 +1,2208 @@
+{
+    "Timestamp": "2019-11-11T17:43:14.9312350+00:00",
+    "Level": "Information",
+    "MessageTemplate": "Application starting up",
+    "Properties": {
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 1
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:18.0398409+00:00",
+    "Level": "Information",
+    "MessageTemplate": "User profile is available. Using '{FullName}' as key repository and Windows DPAPI to encrypt keys at rest.",
+    "Properties": {
+        "FullName": "C:\\Users\\Duho\\AppData\\Local\\ASP.NET\\DataProtection-Keys",
+        "SourceContext": "Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 1
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:18.5282186+00:00",
+    "Level": "Information",
+    "MessageTemplate": "Now listening on: {address}",
+    "Properties": {
+        "address": "https://localhost:5001",
+        "SourceContext": "Microsoft.Hosting.Lifetime",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 1
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:18.5411968+00:00",
+    "Level": "Information",
+    "MessageTemplate": "Now listening on: {address}",
+    "Properties": {
+        "address": "http://localhost:5000",
+        "SourceContext": "Microsoft.Hosting.Lifetime",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 1
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:18.5445011+00:00",
+    "Level": "Information",
+    "MessageTemplate": "Application started. Press Ctrl+C to shut down.",
+    "Properties": {
+        "SourceContext": "Microsoft.Hosting.Lifetime",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 1
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:18.5459094+00:00",
+    "Level": "Information",
+    "MessageTemplate": "Hosting environment: {envName}",
+    "Properties": {
+        "envName": "Development",
+        "SourceContext": "Microsoft.Hosting.Lifetime",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 1
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:18.5480589+00:00",
+    "Level": "Information",
+    "MessageTemplate": "Content root path: {contentRoot}",
+    "Properties": {
+        "contentRoot": "C:\\Users\\Duho\\source\\repos\\SerilogDemoApp\\SerilogDemo",
+        "SourceContext": "Microsoft.Hosting.Lifetime",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 1
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.0150047+00:00",
+    "Level": "Information",
+    "MessageTemplate": "{HostingRequestStartingLog:l}",
+    "Properties": {
+        "Protocol": "HTTP/2",
+        "Method": "GET",
+        "ContentType": null,
+        "ContentLength": null,
+        "Scheme": "https",
+        "Host": "localhost:5001",
+        "PathBase": "",
+        "Path": "/",
+        "QueryString": "",
+        "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:5001/  ",
+        "EventId": {
+            "Id": 1
+        },
+        "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    },
+    "Renderings": {
+        "HostingRequestStartingLog": [
+            {
+                "Format": "l",
+                "Rendering": "Request starting HTTP/2 GET https://localhost:5001/  "
+            }
+        ]
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.1087550+00:00",
+    "Level": "Information",
+    "MessageTemplate": "Executing endpoint '{EndpointName}'",
+    "Properties": {
+        "EndpointName": "/Index",
+        "EventId": {
+            "Name": "ExecutingEndpoint"
+        },
+        "SourceContext": "Microsoft.AspNetCore.Routing.EndpointMiddleware",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2124226+00:00",
+    "Level": "Information",
+    "MessageTemplate": "Route matched with {RouteData}. Executing page {PageName}",
+    "Properties": {
+        "RouteData": "{page = \"/Index\"}",
+        "PageName": "/Index",
+        "EventId": {
+            "Id": 3,
+            "Name": "PageExecuting"
+        },
+        "SourceContext": "Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2287975+00:00",
+    "Level": "Information",
+    "MessageTemplate": "Executing handler method {HandlerName} - ModelState is {ValidationState}",
+    "Properties": {
+        "HandlerName": "SerilogDemo.Pages.IndexModel.OnGet",
+        "ValidationState": "Valid",
+        "EventId": {
+            "Id": 101,
+            "Name": "ExecutingHandlerMethod"
+        },
+        "SourceContext": "Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2318376+00:00",
+    "Level": "Information",
+    "MessageTemplate": "You requested a page!",
+    "Properties": {
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2326115+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 0,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2334148+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 1,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2342027+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 2,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2349808+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 3,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2357936+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 4,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2366413+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 5,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2375478+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 6,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2385704+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 7,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2417335+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 8,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2429951+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 9,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2438587+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 10,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2446634+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 11,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2453843+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 12,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2466166+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 13,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2473595+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 14,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2481697+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 15,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2489833+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 16,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2510841+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 17,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2525798+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 18,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2537896+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 19,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2549090+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 20,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2561636+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 21,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2578652+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 22,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2623261+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 23,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2636679+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 24,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2650642+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 25,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2662924+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 26,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2673876+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 27,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2689610+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 28,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2703538+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 29,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2732756+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 30,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2751897+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 31,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2775601+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 32,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2787335+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 33,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2799631+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 34,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2829571+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 35,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2842048+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 36,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2857834+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 37,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2869200+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 38,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2882241+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 39,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2893909+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 40,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2904099+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 41,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2945829+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 42,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2964272+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 43,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2980826+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 44,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.2992718+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 45,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.3004087+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 46,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.3015706+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 47,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.3044536+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 48,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.3058628+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 49,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.3069795+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 50,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.3107344+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 51,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.3129341+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 52,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.3141653+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 53,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.3160894+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 54,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.3175132+00:00",
+    "Level": "Information",
+    "MessageTemplate": "The value of i is {loopCountValue}",
+    "Properties": {
+        "loopCountValue": 55,
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.5536948+00:00",
+    "Level": "Error",
+    "MessageTemplate": "We caught an {exception} on the get call",
+    "Properties": {
+        "exception": "System.Exception: This is our demo exception\r\n   at SerilogDemo.Pages.IndexModel.OnGet() in C:\\Users\\Duho\\source\\repos\\SerilogDemoApp\\SerilogDemo\\Pages\\Index.cshtml.cs:line 28",
+        "SourceContext": "SerilogDemo.Pages.IndexModel",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.5576737+00:00",
+    "Level": "Information",
+    "MessageTemplate": "Executed handler method {HandlerName}, returned result {ActionResult}.",
+    "Properties": {
+        "HandlerName": "OnGet",
+        "ActionResult": "",
+        "EventId": {
+            "Id": 102,
+            "Name": "ExecutedHandlerMethod"
+        },
+        "SourceContext": "Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.5688011+00:00",
+    "Level": "Information",
+    "MessageTemplate": "Executing an implicit handler method - ModelState is {ValidationState}",
+    "Properties": {
+        "ValidationState": "Valid",
+        "EventId": {
+            "Id": 103,
+            "Name": "ExecutingImplicitHandlerMethod"
+        },
+        "SourceContext": "Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.5709345+00:00",
+    "Level": "Information",
+    "MessageTemplate": "Executed an implicit handler method, returned result {ActionResult}.",
+    "Properties": {
+        "ActionResult": "Microsoft.AspNetCore.Mvc.RazorPages.PageResult",
+        "EventId": {
+            "Id": 104,
+            "Name": "ExecutedImplicitHandlerMethod"
+        },
+        "SourceContext": "Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.7606476+00:00",
+    "Level": "Information",
+    "MessageTemplate": "Executed page {PageName} in {ElapsedMilliseconds}ms",
+    "Properties": {
+        "PageName": "/Index",
+        "ElapsedMilliseconds": 538.5211,
+        "EventId": {
+            "Id": 4,
+            "Name": "PageExecuted"
+        },
+        "SourceContext": "Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker",
+        "ActionId": "8eb6f0cf-49df-4908-9950-3fd2b85275c3",
+        "ActionName": "/Index",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.7680690+00:00",
+    "Level": "Information",
+    "MessageTemplate": "Executed endpoint '{EndpointName}'",
+    "Properties": {
+        "EndpointName": "/Index",
+        "EventId": {
+            "Id": 1,
+            "Name": "ExecutedEndpoint"
+        },
+        "SourceContext": "Microsoft.AspNetCore.Routing.EndpointMiddleware",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.7882844+00:00",
+    "Level": "Information",
+    "MessageTemplate": "HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms",
+    "Properties": {
+        "RequestMethod": "GET",
+        "RequestPath": "/",
+        "StatusCode": 200,
+        "Elapsed": 753.5424,
+        "SourceContext": "Serilog.AspNetCore.RequestLoggingMiddleware",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    },
+    "Renderings": {
+        "Elapsed": [
+            {
+                "Format": "0.0000",
+                "Rendering": "753.5424"
+            }
+        ]
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.8176776+00:00",
+    "Level": "Information",
+    "MessageTemplate": "{HostingRequestFinishedLog:l}",
+    "Properties": {
+        "ElapsedMilliseconds": 809.1132,
+        "StatusCode": 200,
+        "ContentType": "text/html; charset=utf-8",
+        "HostingRequestFinishedLog": "Request finished in 809.1132ms 200 text/html; charset=utf-8",
+        "EventId": {
+            "Id": 2
+        },
+        "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+        "RequestId": "0HLR6PQHL9UI1:0000000F",
+        "RequestPath": "/",
+        "SpanId": "|e716f940-4c3912dad2fb5f54.",
+        "TraceId": "e716f940-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    },
+    "Renderings": {
+        "HostingRequestFinishedLog": [
+            {
+                "Format": "l",
+                "Rendering": "Request finished in 809.1132ms 200 text/html; charset=utf-8"
+            }
+        ]
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.8546198+00:00",
+    "Level": "Information",
+    "MessageTemplate": "{HostingRequestStartingLog:l}",
+    "Properties": {
+        "Protocol": "HTTP/2",
+        "Method": "GET",
+        "ContentType": null,
+        "ContentLength": null,
+        "Scheme": "https",
+        "Host": "localhost:5001",
+        "PathBase": "",
+        "Path": "/lib/jquery/dist/jquery.min.js",
+        "QueryString": "",
+        "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  ",
+        "EventId": {
+            "Id": 1
+        },
+        "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+        "RequestId": "0HLR6PQHL9UI1:00000015",
+        "RequestPath": "/lib/jquery/dist/jquery.min.js",
+        "SpanId": "|e716f942-4c3912dad2fb5f54.",
+        "TraceId": "e716f942-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 9
+    },
+    "Renderings": {
+        "HostingRequestStartingLog": [
+            {
+                "Format": "l",
+                "Rendering": "Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  "
+            }
+        ]
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.8546874+00:00",
+    "Level": "Information",
+    "MessageTemplate": "{HostingRequestStartingLog:l}",
+    "Properties": {
+        "Protocol": "HTTP/2",
+        "Method": "GET",
+        "ContentType": null,
+        "ContentLength": null,
+        "Scheme": "https",
+        "Host": "localhost:5001",
+        "PathBase": "",
+        "Path": "/css/site.css",
+        "QueryString": "",
+        "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:5001/css/site.css  ",
+        "EventId": {
+            "Id": 1
+        },
+        "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+        "RequestId": "0HLR6PQHL9UI1:00000013",
+        "RequestPath": "/css/site.css",
+        "SpanId": "|e716f941-4c3912dad2fb5f54.",
+        "TraceId": "e716f941-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 8
+    },
+    "Renderings": {
+        "HostingRequestStartingLog": [
+            {
+                "Format": "l",
+                "Rendering": "Request starting HTTP/2 GET https://localhost:5001/css/site.css  "
+            }
+        ]
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.8550156+00:00",
+    "Level": "Information",
+    "MessageTemplate": "{HostingRequestStartingLog:l}",
+    "Properties": {
+        "Protocol": "HTTP/2",
+        "Method": "GET",
+        "ContentType": null,
+        "ContentLength": null,
+        "Scheme": "https",
+        "Host": "localhost:5001",
+        "PathBase": "",
+        "Path": "/lib/bootstrap/dist/css/bootstrap.min.css",
+        "QueryString": "",
+        "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  ",
+        "EventId": {
+            "Id": 1
+        },
+        "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+        "RequestId": "0HLR6PQHL9UI1:00000011",
+        "RequestPath": "/lib/bootstrap/dist/css/bootstrap.min.css",
+        "SpanId": "|e716f943-4c3912dad2fb5f54.",
+        "TraceId": "e716f943-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 4
+    },
+    "Renderings": {
+        "HostingRequestStartingLog": [
+            {
+                "Format": "l",
+                "Rendering": "Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  "
+            }
+        ]
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.8550663+00:00",
+    "Level": "Information",
+    "MessageTemplate": "{HostingRequestStartingLog:l}",
+    "Properties": {
+        "Protocol": "HTTP/2",
+        "Method": "GET",
+        "ContentType": null,
+        "ContentLength": null,
+        "Scheme": "https",
+        "Host": "localhost:5001",
+        "PathBase": "",
+        "Path": "/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+        "QueryString": "",
+        "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  ",
+        "EventId": {
+            "Id": 1
+        },
+        "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+        "RequestId": "0HLR6PQHL9UI1:00000017",
+        "RequestPath": "/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+        "SpanId": "|e716f944-4c3912dad2fb5f54.",
+        "TraceId": "e716f944-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 10
+    },
+    "Renderings": {
+        "HostingRequestStartingLog": [
+            {
+                "Format": "l",
+                "Rendering": "Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  "
+            }
+        ]
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.8725200+00:00",
+    "Level": "Information",
+    "MessageTemplate": "Sending file. Request path: '{VirtualPath}'. Physical path: '{PhysicalPath}'",
+    "Properties": {
+        "VirtualPath": "/css/site.css",
+        "PhysicalPath": "C:\\Users\\Duho\\source\\repos\\SerilogDemoApp\\SerilogDemo\\wwwroot\\css\\site.css",
+        "EventId": {
+            "Id": 2,
+            "Name": "FileServed"
+        },
+        "SourceContext": "Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware",
+        "RequestId": "0HLR6PQHL9UI1:00000013",
+        "RequestPath": "/css/site.css",
+        "SpanId": "|e716f941-4c3912dad2fb5f54.",
+        "TraceId": "e716f941-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 8
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.8798675+00:00",
+    "Level": "Information",
+    "MessageTemplate": "{HostingRequestFinishedLog:l}",
+    "Properties": {
+        "ElapsedMilliseconds": 25.2925,
+        "StatusCode": 200,
+        "ContentType": "text/css",
+        "HostingRequestFinishedLog": "Request finished in 25.2925ms 200 text/css",
+        "EventId": {
+            "Id": 2
+        },
+        "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+        "RequestId": "0HLR6PQHL9UI1:00000013",
+        "RequestPath": "/css/site.css",
+        "SpanId": "|e716f941-4c3912dad2fb5f54.",
+        "TraceId": "e716f941-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 8
+    },
+    "Renderings": {
+        "HostingRequestFinishedLog": [
+            {
+                "Format": "l",
+                "Rendering": "Request finished in 25.2925ms 200 text/css"
+            }
+        ]
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.8824661+00:00",
+    "Level": "Information",
+    "MessageTemplate": "{HostingRequestStartingLog:l}",
+    "Properties": {
+        "Protocol": "HTTP/2",
+        "Method": "GET",
+        "ContentType": null,
+        "ContentLength": null,
+        "Scheme": "https",
+        "Host": "localhost:5001",
+        "PathBase": "",
+        "Path": "/js/site.js",
+        "QueryString": "?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18",
+        "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  ",
+        "EventId": {
+            "Id": 1
+        },
+        "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+        "RequestId": "0HLR6PQHL9UI1:00000019",
+        "RequestPath": "/js/site.js",
+        "SpanId": "|e716f945-4c3912dad2fb5f54.",
+        "TraceId": "e716f945-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 8
+    },
+    "Renderings": {
+        "HostingRequestStartingLog": [
+            {
+                "Format": "l",
+                "Rendering": "Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  "
+            }
+        ]
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.8865066+00:00",
+    "Level": "Information",
+    "MessageTemplate": "Sending file. Request path: '{VirtualPath}'. Physical path: '{PhysicalPath}'",
+    "Properties": {
+        "VirtualPath": "/js/site.js",
+        "PhysicalPath": "C:\\Users\\Duho\\source\\repos\\SerilogDemoApp\\SerilogDemo\\wwwroot\\js\\site.js",
+        "EventId": {
+            "Id": 2,
+            "Name": "FileServed"
+        },
+        "SourceContext": "Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware",
+        "RequestId": "0HLR6PQHL9UI1:00000019",
+        "RequestPath": "/js/site.js",
+        "SpanId": "|e716f945-4c3912dad2fb5f54.",
+        "TraceId": "e716f945-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 8
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.9497171+00:00",
+    "Level": "Information",
+    "MessageTemplate": "{HostingRequestFinishedLog:l}",
+    "Properties": {
+        "ElapsedMilliseconds": 67.2359,
+        "StatusCode": 200,
+        "ContentType": "application/javascript",
+        "HostingRequestFinishedLog": "Request finished in 67.2359ms 200 application/javascript",
+        "EventId": {
+            "Id": 2
+        },
+        "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+        "RequestId": "0HLR6PQHL9UI1:00000019",
+        "RequestPath": "/js/site.js",
+        "SpanId": "|e716f945-4c3912dad2fb5f54.",
+        "TraceId": "e716f945-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 8
+    },
+    "Renderings": {
+        "HostingRequestFinishedLog": [
+            {
+                "Format": "l",
+                "Rendering": "Request finished in 67.2359ms 200 application/javascript"
+            }
+        ]
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.9825429+00:00",
+    "Level": "Information",
+    "MessageTemplate": "Sending file. Request path: '{VirtualPath}'. Physical path: '{PhysicalPath}'",
+    "Properties": {
+        "VirtualPath": "/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+        "PhysicalPath": "C:\\Users\\Duho\\source\\repos\\SerilogDemoApp\\SerilogDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+        "EventId": {
+            "Id": 2,
+            "Name": "FileServed"
+        },
+        "SourceContext": "Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware",
+        "RequestId": "0HLR6PQHL9UI1:00000017",
+        "RequestPath": "/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+        "SpanId": "|e716f944-4c3912dad2fb5f54.",
+        "TraceId": "e716f944-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 9
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.9825410+00:00",
+    "Level": "Information",
+    "MessageTemplate": "Sending file. Request path: '{VirtualPath}'. Physical path: '{PhysicalPath}'",
+    "Properties": {
+        "VirtualPath": "/lib/jquery/dist/jquery.min.js",
+        "PhysicalPath": "C:\\Users\\Duho\\source\\repos\\SerilogDemoApp\\SerilogDemo\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+        "EventId": {
+            "Id": 2,
+            "Name": "FileServed"
+        },
+        "SourceContext": "Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware",
+        "RequestId": "0HLR6PQHL9UI1:00000015",
+        "RequestPath": "/lib/jquery/dist/jquery.min.js",
+        "SpanId": "|e716f942-4c3912dad2fb5f54.",
+        "TraceId": "e716f942-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 8
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:20.9855013+00:00",
+    "Level": "Information",
+    "MessageTemplate": "Sending file. Request path: '{VirtualPath}'. Physical path: '{PhysicalPath}'",
+    "Properties": {
+        "VirtualPath": "/lib/bootstrap/dist/css/bootstrap.min.css",
+        "PhysicalPath": "C:\\Users\\Duho\\source\\repos\\SerilogDemoApp\\SerilogDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+        "EventId": {
+            "Id": 2,
+            "Name": "FileServed"
+        },
+        "SourceContext": "Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware",
+        "RequestId": "0HLR6PQHL9UI1:00000011",
+        "RequestPath": "/lib/bootstrap/dist/css/bootstrap.min.css",
+        "SpanId": "|e716f943-4c3912dad2fb5f54.",
+        "TraceId": "e716f943-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 5
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:21.0189751+00:00",
+    "Level": "Information",
+    "MessageTemplate": "{HostingRequestFinishedLog:l}",
+    "Properties": {
+        "ElapsedMilliseconds": 163.8407,
+        "StatusCode": 200,
+        "ContentType": "application/javascript",
+        "HostingRequestFinishedLog": "Request finished in 163.8407ms 200 application/javascript",
+        "EventId": {
+            "Id": 2
+        },
+        "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+        "RequestId": "0HLR6PQHL9UI1:00000017",
+        "RequestPath": "/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+        "SpanId": "|e716f944-4c3912dad2fb5f54.",
+        "TraceId": "e716f944-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 9
+    },
+    "Renderings": {
+        "HostingRequestFinishedLog": [
+            {
+                "Format": "l",
+                "Rendering": "Request finished in 163.8407ms 200 application/javascript"
+            }
+        ]
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:21.0231933+00:00",
+    "Level": "Information",
+    "MessageTemplate": "{HostingRequestFinishedLog:l}",
+    "Properties": {
+        "ElapsedMilliseconds": 168.6665,
+        "StatusCode": 200,
+        "ContentType": "application/javascript",
+        "HostingRequestFinishedLog": "Request finished in 168.6665ms 200 application/javascript",
+        "EventId": {
+            "Id": 2
+        },
+        "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+        "RequestId": "0HLR6PQHL9UI1:00000015",
+        "RequestPath": "/lib/jquery/dist/jquery.min.js",
+        "SpanId": "|e716f942-4c3912dad2fb5f54.",
+        "TraceId": "e716f942-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 8
+    },
+    "Renderings": {
+        "HostingRequestFinishedLog": [
+            {
+                "Format": "l",
+                "Rendering": "Request finished in 168.6665ms 200 application/javascript"
+            }
+        ]
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:21.0298751+00:00",
+    "Level": "Information",
+    "MessageTemplate": "{HostingRequestFinishedLog:l}",
+    "Properties": {
+        "ElapsedMilliseconds": 174.9726,
+        "StatusCode": 200,
+        "ContentType": "text/css",
+        "HostingRequestFinishedLog": "Request finished in 174.9726ms 200 text/css",
+        "EventId": {
+            "Id": 2
+        },
+        "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+        "RequestId": "0HLR6PQHL9UI1:00000011",
+        "RequestPath": "/lib/bootstrap/dist/css/bootstrap.min.css",
+        "SpanId": "|e716f943-4c3912dad2fb5f54.",
+        "TraceId": "e716f943-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 5
+    },
+    "Renderings": {
+        "HostingRequestFinishedLog": [
+            {
+                "Format": "l",
+                "Rendering": "Request finished in 174.9726ms 200 text/css"
+            }
+        ]
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:21.5879611+00:00",
+    "Level": "Information",
+    "MessageTemplate": "{HostingRequestStartingLog:l}",
+    "Properties": {
+        "Protocol": "HTTP/2",
+        "Method": "GET",
+        "ContentType": null,
+        "ContentLength": null,
+        "Scheme": "https",
+        "Host": "localhost:5001",
+        "PathBase": "",
+        "Path": "/favicon.ico",
+        "QueryString": "",
+        "HostingRequestStartingLog": "Request starting HTTP/2 GET https://localhost:5001/favicon.ico  ",
+        "EventId": {
+            "Id": 1
+        },
+        "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+        "RequestId": "0HLR6PQHL9UI1:0000001B",
+        "RequestPath": "/favicon.ico",
+        "SpanId": "|e716f946-4c3912dad2fb5f54.",
+        "TraceId": "e716f946-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 5
+    },
+    "Renderings": {
+        "HostingRequestStartingLog": [
+            {
+                "Format": "l",
+                "Rendering": "Request starting HTTP/2 GET https://localhost:5001/favicon.ico  "
+            }
+        ]
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:21.5958277+00:00",
+    "Level": "Information",
+    "MessageTemplate": "Sending file. Request path: '{VirtualPath}'. Physical path: '{PhysicalPath}'",
+    "Properties": {
+        "VirtualPath": "/favicon.ico",
+        "PhysicalPath": "C:\\Users\\Duho\\source\\repos\\SerilogDemoApp\\SerilogDemo\\wwwroot\\favicon.ico",
+        "EventId": {
+            "Id": 2,
+            "Name": "FileServed"
+        },
+        "SourceContext": "Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware",
+        "RequestId": "0HLR6PQHL9UI1:0000001B",
+        "RequestPath": "/favicon.ico",
+        "SpanId": "|e716f946-4c3912dad2fb5f54.",
+        "TraceId": "e716f946-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 4
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:43:21.6002356+00:00",
+    "Level": "Information",
+    "MessageTemplate": "{HostingRequestFinishedLog:l}",
+    "Properties": {
+        "ElapsedMilliseconds": 12.997900000000001,
+        "StatusCode": 200,
+        "ContentType": "image/x-icon",
+        "HostingRequestFinishedLog": "Request finished in 12.997900000000001ms 200 image/x-icon",
+        "EventId": {
+            "Id": 2
+        },
+        "SourceContext": "Microsoft.AspNetCore.Hosting.Diagnostics",
+        "RequestId": "0HLR6PQHL9UI1:0000001B",
+        "RequestPath": "/favicon.ico",
+        "SpanId": "|e716f946-4c3912dad2fb5f54.",
+        "TraceId": "e716f946-4c3912dad2fb5f54",
+        "ParentId": "",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 4
+    },
+    "Renderings": {
+        "HostingRequestFinishedLog": [
+            {
+                "Format": "l",
+                "Rendering": "Request finished in 12.997900000000001ms 200 image/x-icon"
+            }
+        ]
+    }
+}
+{
+    "Timestamp": "2019-11-11T17:44:23.0682348+00:00",
+    "Level": "Information",
+    "MessageTemplate": "Application is shutting down...",
+    "Properties": {
+        "SourceContext": "Microsoft.Hosting.Lifetime",
+        "MachineName": "DUHO-PC",
+        "ProcessId": 11124,
+        "ThreadId": 2
+    }
+}{"Timestamp":"2019-11-11T22:38:54.2186595+00:00","Level":"Information","MessageTemplate":"Application starting up","Properties":{"MachineName":"DUHO-PC","ProcessId":2676,"ThreadId":1}}
+{"Timestamp":"2019-11-11T22:38:58.4201405+00:00","Level":"Information","MessageTemplate":"User profile is available. Using '{FullName}' as key repository and Windows DPAPI to encrypt keys at rest.","Properties":{"FullName":"C:\\Users\\Duho\\AppData\\Local\\ASP.NET\\DataProtection-Keys","SourceContext":"Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager","MachineName":"DUHO-PC","ProcessId":2676,"ThreadId":1}}
+{"Timestamp":"2019-11-11T22:38:59.1138902+00:00","Level":"Warning","MessageTemplate":"Unable to bind to {address} on the {interfaceName} interface: '{error}'.","Properties":{"address":"https://localhost:5001","interfaceName":"IPv4 loopback","error":"An attempt was made to access a socket in a way forbidden by its access permissions.","SourceContext":"Microsoft.AspNetCore.Server.Kestrel","MachineName":"DUHO-PC","ProcessId":2676,"ThreadId":1}}
+{"Timestamp":"2019-11-11T22:38:59.1183071+00:00","Level":"Warning","MessageTemplate":"Unable to bind to {address} on the {interfaceName} interface: '{error}'.","Properties":{"address":"https://localhost:5001","interfaceName":"IPv6 loopback","error":"An attempt was made to access a socket in a way forbidden by its access permissions.","SourceContext":"Microsoft.AspNetCore.Server.Kestrel","MachineName":"DUHO-PC","ProcessId":2676,"ThreadId":1}}
+{"Timestamp":"2019-11-11T22:38:59.1244176+00:00","Level":"Fatal","MessageTemplate":"Unable to start Kestrel.","Exception":"System.IO.IOException: Failed to bind to address https://localhost:5001.\r\n ---> System.AggregateException: One or more errors occurred. (An attempt was made to access a socket in a way forbidden by its access permissions.) (An attempt was made to access a socket in a way forbidden by its access permissions.)\r\n ---> System.Net.Sockets.SocketException (10013): An attempt was made to access a socket in a way forbidden by its access permissions.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)\r\n   --- End of inner exception stack trace ---\r\n ---> (Inner Exception #1) System.Net.Sockets.SocketException (10013): An attempt was made to access a socket in a way forbidden by its access permissions.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)<---\r\n\r\n   --- End of inner exception stack trace ---\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)","Properties":{"SourceContext":"Microsoft.AspNetCore.Server.Kestrel","MachineName":"DUHO-PC","ProcessId":2676,"ThreadId":1}}
+{"Timestamp":"2019-11-11T22:38:59.4407673+00:00","Level":"Fatal","MessageTemplate":"ApplicationFailed tpstart correctly","Exception":"System.IO.IOException: Failed to bind to address https://localhost:5001.\r\n ---> System.AggregateException: One or more errors occurred. (An attempt was made to access a socket in a way forbidden by its access permissions.) (An attempt was made to access a socket in a way forbidden by its access permissions.)\r\n ---> System.Net.Sockets.SocketException (10013): An attempt was made to access a socket in a way forbidden by its access permissions.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)\r\n   --- End of inner exception stack trace ---\r\n ---> (Inner Exception #1) System.Net.Sockets.SocketException (10013): An attempt was made to access a socket in a way forbidden by its access permissions.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)<---\r\n\r\n   --- End of inner exception stack trace ---\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)\r\n   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)\r\n   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)\r\n   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)\r\n   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)\r\n   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)\r\n   at SerilogDemo.Program.Main(String[] args) in C:\\Users\\Duho\\source\\repos\\SerilogDemoApp\\SerilogDemo\\Program.cs:line 20","Properties":{"MachineName":"DUHO-PC","ProcessId":2676,"ThreadId":1}}
+{"Timestamp":"2019-11-11T22:46:34.6778496+00:00","Level":"Information","MessageTemplate":"Application starting up","Properties":{"MachineName":"DUHO-PC","ProcessId":11128,"ThreadId":1}}
+{"Timestamp":"2019-11-11T22:46:37.6737339+00:00","Level":"Information","MessageTemplate":"User profile is available. Using '{FullName}' as key repository and Windows DPAPI to encrypt keys at rest.","Properties":{"FullName":"C:\\Users\\Duho\\AppData\\Local\\ASP.NET\\DataProtection-Keys","SourceContext":"Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager","MachineName":"DUHO-PC","ProcessId":11128,"ThreadId":1}}
+{"Timestamp":"2019-11-11T22:46:38.0815713+00:00","Level":"Warning","MessageTemplate":"Unable to bind to {address} on the {interfaceName} interface: '{error}'.","Properties":{"address":"http://localhost:18426","interfaceName":"IPv4 loopback","error":"An attempt was made to access a socket in a way forbidden by its access permissions.","SourceContext":"Microsoft.AspNetCore.Server.Kestrel","MachineName":"DUHO-PC","ProcessId":11128,"ThreadId":1}}
+{"Timestamp":"2019-11-11T22:46:38.1051342+00:00","Level":"Warning","MessageTemplate":"Unable to bind to {address} on the {interfaceName} interface: '{error}'.","Properties":{"address":"http://localhost:18426","interfaceName":"IPv6 loopback","error":"An attempt was made to access a socket in a way forbidden by its access permissions.","SourceContext":"Microsoft.AspNetCore.Server.Kestrel","MachineName":"DUHO-PC","ProcessId":11128,"ThreadId":1}}
+{"Timestamp":"2019-11-11T22:46:38.1119482+00:00","Level":"Fatal","MessageTemplate":"Unable to start Kestrel.","Exception":"System.IO.IOException: Failed to bind to address http://localhost:18426.\r\n ---> System.AggregateException: One or more errors occurred. (An attempt was made to access a socket in a way forbidden by its access permissions.) (An attempt was made to access a socket in a way forbidden by its access permissions.)\r\n ---> System.Net.Sockets.SocketException (10013): An attempt was made to access a socket in a way forbidden by its access permissions.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)\r\n   --- End of inner exception stack trace ---\r\n ---> (Inner Exception #1) System.Net.Sockets.SocketException (10013): An attempt was made to access a socket in a way forbidden by its access permissions.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)<---\r\n\r\n   --- End of inner exception stack trace ---\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)","Properties":{"SourceContext":"Microsoft.AspNetCore.Server.Kestrel","MachineName":"DUHO-PC","ProcessId":11128,"ThreadId":1}}
+{"Timestamp":"2019-11-11T22:46:38.4328514+00:00","Level":"Fatal","MessageTemplate":"ApplicationFailed tpstart correctly","Exception":"System.IO.IOException: Failed to bind to address http://localhost:18426.\r\n ---> System.AggregateException: One or more errors occurred. (An attempt was made to access a socket in a way forbidden by its access permissions.) (An attempt was made to access a socket in a way forbidden by its access permissions.)\r\n ---> System.Net.Sockets.SocketException (10013): An attempt was made to access a socket in a way forbidden by its access permissions.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)\r\n   --- End of inner exception stack trace ---\r\n ---> (Inner Exception #1) System.Net.Sockets.SocketException (10013): An attempt was made to access a socket in a way forbidden by its access permissions.\r\n   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)\r\n   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)\r\n   at System.Net.Sockets.Socket.Bind(EndPoint localEP)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()\r\n   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)<---\r\n\r\n   --- End of inner exception stack trace ---\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)\r\n   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)\r\n   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)\r\n   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)\r\n   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)\r\n   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)\r\n   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)\r\n   at SerilogDemo.Program.Main(String[] args) in C:\\Users\\Duho\\source\\repos\\SerilogDemoApp\\SerilogDemo\\Program.cs:line 20","Properties":{"MachineName":"DUHO-PC","ProcessId":11128,"ThreadId":1}}
+{"Timestamp":"2019-11-11T22:48:56.6607384+00:00","Level":"Information","MessageTemplate":"Application starting up","Properties":{"MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":1}}
+{"Timestamp":"2019-11-11T22:49:03.5932283+00:00","Level":"Information","MessageTemplate":"User profile is available. Using '{FullName}' as key repository and Windows DPAPI to encrypt keys at rest.","Properties":{"FullName":"C:\\Users\\Duho\\AppData\\Local\\ASP.NET\\DataProtection-Keys","SourceContext":"Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":1}}
+{"Timestamp":"2019-11-11T22:49:04.1098585+00:00","Level":"Information","MessageTemplate":"Now listening on: {address}","Properties":{"address":"https://localhost:5001","SourceContext":"Microsoft.Hosting.Lifetime","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":1}}
+{"Timestamp":"2019-11-11T22:49:04.1405472+00:00","Level":"Information","MessageTemplate":"Now listening on: {address}","Properties":{"address":"http://localhost:5000","SourceContext":"Microsoft.Hosting.Lifetime","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":1}}
+{"Timestamp":"2019-11-11T22:49:04.1440780+00:00","Level":"Information","MessageTemplate":"Application started. Press Ctrl+C to shut down.","Properties":{"SourceContext":"Microsoft.Hosting.Lifetime","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":1}}
+{"Timestamp":"2019-11-11T22:49:04.1454894+00:00","Level":"Information","MessageTemplate":"Hosting environment: {envName}","Properties":{"envName":"Development","SourceContext":"Microsoft.Hosting.Lifetime","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":1}}
+{"Timestamp":"2019-11-11T22:49:04.1467297+00:00","Level":"Information","MessageTemplate":"Content root path: {contentRoot}","Properties":{"contentRoot":"C:\\Users\\Duho\\source\\repos\\SerilogDemoApp\\SerilogDemo","SourceContext":"Microsoft.Hosting.Lifetime","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":1}}
+{"Timestamp":"2019-11-11T22:49:07.2463058+00:00","Level":"Information","MessageTemplate":"{HostingRequestStartingLog:l}","Properties":{"Protocol":"HTTP/2","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"https","Host":"localhost:5001","PathBase":"","Path":"/","QueryString":"","HostingRequestStartingLog":"Request starting HTTP/2 GET https://localhost:5001/  ","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8},"Renderings":{"HostingRequestStartingLog":[{"Format":"l","Rendering":"Request starting HTTP/2 GET https://localhost:5001/  "}]}}
+{"Timestamp":"2019-11-11T22:49:07.4457099+00:00","Level":"Information","MessageTemplate":"Executing endpoint '{EndpointName}'","Properties":{"EndpointName":"/Index","EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.5940090+00:00","Level":"Information","MessageTemplate":"Route matched with {RouteData}. Executing page {PageName}","Properties":{"RouteData":"{page = \"/Index\"}","PageName":"/Index","EventId":{"Id":3,"Name":"PageExecuting"},"SourceContext":"Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6147571+00:00","Level":"Information","MessageTemplate":"Executing handler method {HandlerName} - ModelState is {ValidationState}","Properties":{"HandlerName":"SerilogDemo.Pages.IndexModel.OnGet","ValidationState":"Valid","EventId":{"Id":101,"Name":"ExecutingHandlerMethod"},"SourceContext":"Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6211748+00:00","Level":"Information","MessageTemplate":"You requested a page!","Properties":{"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6223057+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":0,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6234483+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":1,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6261925+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":2,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6274526+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":3,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6286650+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":4,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6297721+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":5,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6307881+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":6,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6319925+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":7,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6333120+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":8,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6370227+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":9,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6382468+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":10,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6392091+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":11,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6405357+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":12,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6417213+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":13,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6428997+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":14,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6440477+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":15,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6459294+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":16,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6469100+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":17,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6494928+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":18,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6517515+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":19,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6534033+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":20,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6596991+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":21,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6616090+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":22,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6633629+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":23,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6697638+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":24,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6715952+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":25,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6746372+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":26,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6761808+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":27,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6800709+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":28,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6813385+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":29,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6854913+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":30,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6911911+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":31,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6927700+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":32,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6954434+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":33,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6967518+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":34,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.6981195+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":35,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.7034544+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":36,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.7063037+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":37,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.7077230+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":38,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.7091308+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":39,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.7125522+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":40,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.7141366+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":41,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.7166292+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":42,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.7194274+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":43,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.7246261+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":44,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.7267163+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":45,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.7285336+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":46,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.7299538+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":47,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.7325640+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":48,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.7379090+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":49,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.7396474+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":50,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.7421128+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":51,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.7436058+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":52,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.7471298+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":53,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.7502501+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":54,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.7519772+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":55,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.9724572+00:00","Level":"Error","MessageTemplate":"We caught an {exception} on the get call","Properties":{"exception":"System.Exception: This is our demo exception\r\n   at SerilogDemo.Pages.IndexModel.OnGet() in C:\\Users\\Duho\\source\\repos\\SerilogDemoApp\\SerilogDemo\\Pages\\Index.cshtml.cs:line 28","SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.9760435+00:00","Level":"Information","MessageTemplate":"Executed handler method {HandlerName}, returned result {ActionResult}.","Properties":{"HandlerName":"OnGet","ActionResult":"","EventId":{"Id":102,"Name":"ExecutedHandlerMethod"},"SourceContext":"Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.9889378+00:00","Level":"Information","MessageTemplate":"Executing an implicit handler method - ModelState is {ValidationState}","Properties":{"ValidationState":"Valid","EventId":{"Id":103,"Name":"ExecutingImplicitHandlerMethod"},"SourceContext":"Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:07.9934469+00:00","Level":"Information","MessageTemplate":"Executed an implicit handler method, returned result {ActionResult}.","Properties":{"ActionResult":"Microsoft.AspNetCore.Mvc.RazorPages.PageResult","EventId":{"Id":104,"Name":"ExecutedImplicitHandlerMethod"},"SourceContext":"Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:08.1725247+00:00","Level":"Information","MessageTemplate":"Executed page {PageName} in {ElapsedMilliseconds}ms","Properties":{"PageName":"/Index","ElapsedMilliseconds":567.1583,"EventId":{"Id":4,"Name":"PageExecuted"},"SourceContext":"Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker","ActionId":"9ac050fd-c013-4ca4-beaf-02865ca1c25f","ActionName":"/Index","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:08.1760466+00:00","Level":"Information","MessageTemplate":"Executed endpoint '{EndpointName}'","Properties":{"EndpointName":"/Index","EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:08.1857117+00:00","Level":"Information","MessageTemplate":"HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms","Properties":{"RequestMethod":"GET","RequestPath":"/","StatusCode":200,"Elapsed":902.8756,"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HLR6V5D3KD49:0000000F","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8},"Renderings":{"Elapsed":[{"Format":"0.0000","Rendering":"902.8756"}]}}
+{"Timestamp":"2019-11-11T22:49:08.2280003+00:00","Level":"Information","MessageTemplate":"{HostingRequestFinishedLog:l}","Properties":{"ElapsedMilliseconds":969.6994000000001,"StatusCode":200,"ContentType":"text/html; charset=utf-8","HostingRequestFinishedLog":"Request finished in 969.6994000000001ms 200 text/html; charset=utf-8","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HLR6V5D3KD49:0000000F","RequestPath":"/","SpanId":"|849ad9d7-4b759b03040584b6.","TraceId":"849ad9d7-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8},"Renderings":{"HostingRequestFinishedLog":[{"Format":"l","Rendering":"Request finished in 969.6994000000001ms 200 text/html; charset=utf-8"}]}}
+{"Timestamp":"2019-11-11T22:49:08.3739215+00:00","Level":"Information","MessageTemplate":"{HostingRequestStartingLog:l}","Properties":{"Protocol":"HTTP/2","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"https","Host":"localhost:5001","PathBase":"","Path":"/lib/bootstrap/dist/css/bootstrap.min.css","QueryString":"","HostingRequestStartingLog":"Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  ","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HLR6V5D3KD49:00000011","RequestPath":"/lib/bootstrap/dist/css/bootstrap.min.css","SpanId":"|849ad9d8-4b759b03040584b6.","TraceId":"849ad9d8-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":4},"Renderings":{"HostingRequestStartingLog":[{"Format":"l","Rendering":"Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  "}]}}
+{"Timestamp":"2019-11-11T22:49:08.3744282+00:00","Level":"Information","MessageTemplate":"{HostingRequestStartingLog:l}","Properties":{"Protocol":"HTTP/2","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"https","Host":"localhost:5001","PathBase":"","Path":"/lib/jquery/dist/jquery.min.js","QueryString":"","HostingRequestStartingLog":"Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  ","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HLR6V5D3KD49:00000015","RequestPath":"/lib/jquery/dist/jquery.min.js","SpanId":"|849ad9da-4b759b03040584b6.","TraceId":"849ad9da-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":5},"Renderings":{"HostingRequestStartingLog":[{"Format":"l","Rendering":"Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  "}]}}
+{"Timestamp":"2019-11-11T22:49:08.3742154+00:00","Level":"Information","MessageTemplate":"{HostingRequestStartingLog:l}","Properties":{"Protocol":"HTTP/2","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"https","Host":"localhost:5001","PathBase":"","Path":"/css/site.css","QueryString":"","HostingRequestStartingLog":"Request starting HTTP/2 GET https://localhost:5001/css/site.css  ","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HLR6V5D3KD49:00000013","RequestPath":"/css/site.css","SpanId":"|849ad9d9-4b759b03040584b6.","TraceId":"849ad9d9-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":11},"Renderings":{"HostingRequestStartingLog":[{"Format":"l","Rendering":"Request starting HTTP/2 GET https://localhost:5001/css/site.css  "}]}}
+{"Timestamp":"2019-11-11T22:49:08.6627059+00:00","Level":"Information","MessageTemplate":"{HostingRequestStartingLog:l}","Properties":{"Protocol":"HTTP/2","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"https","Host":"localhost:5001","PathBase":"","Path":"/lib/bootstrap/dist/js/bootstrap.bundle.min.js","QueryString":"","HostingRequestStartingLog":"Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  ","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HLR6V5D3KD49:00000017","RequestPath":"/lib/bootstrap/dist/js/bootstrap.bundle.min.js","SpanId":"|849ad9db-4b759b03040584b6.","TraceId":"849ad9db-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":4},"Renderings":{"HostingRequestStartingLog":[{"Format":"l","Rendering":"Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  "}]}}
+{"Timestamp":"2019-11-11T22:49:08.6704186+00:00","Level":"Information","MessageTemplate":"{HostingRequestStartingLog:l}","Properties":{"Protocol":"HTTP/2","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"https","Host":"localhost:5001","PathBase":"","Path":"/js/site.js","QueryString":"?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18","HostingRequestStartingLog":"Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  ","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HLR6V5D3KD49:00000019","RequestPath":"/js/site.js","SpanId":"|849ad9dc-4b759b03040584b6.","TraceId":"849ad9dc-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8},"Renderings":{"HostingRequestStartingLog":[{"Format":"l","Rendering":"Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  "}]}}
+{"Timestamp":"2019-11-11T22:49:08.9153911+00:00","Level":"Information","MessageTemplate":"Sending file. Request path: '{VirtualPath}'. Physical path: '{PhysicalPath}'","Properties":{"VirtualPath":"/css/site.css","PhysicalPath":"C:\\Users\\Duho\\source\\repos\\SerilogDemoApp\\SerilogDemo\\wwwroot\\css\\site.css","EventId":{"Id":2,"Name":"FileServed"},"SourceContext":"Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware","RequestId":"0HLR6V5D3KD49:00000013","RequestPath":"/css/site.css","SpanId":"|849ad9d9-4b759b03040584b6.","TraceId":"849ad9d9-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":11}}
+{"Timestamp":"2019-11-11T22:49:08.9478075+00:00","Level":"Information","MessageTemplate":"{HostingRequestFinishedLog:l}","Properties":{"ElapsedMilliseconds":573.4966000000001,"StatusCode":200,"ContentType":"text/css","HostingRequestFinishedLog":"Request finished in 573.4966000000001ms 200 text/css","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HLR6V5D3KD49:00000013","RequestPath":"/css/site.css","SpanId":"|849ad9d9-4b759b03040584b6.","TraceId":"849ad9d9-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":11},"Renderings":{"HostingRequestFinishedLog":[{"Format":"l","Rendering":"Request finished in 573.4966000000001ms 200 text/css"}]}}
+{"Timestamp":"2019-11-11T22:49:08.9604966+00:00","Level":"Information","MessageTemplate":"Sending file. Request path: '{VirtualPath}'. Physical path: '{PhysicalPath}'","Properties":{"VirtualPath":"/js/site.js","PhysicalPath":"C:\\Users\\Duho\\source\\repos\\SerilogDemoApp\\SerilogDemo\\wwwroot\\js\\site.js","EventId":{"Id":2,"Name":"FileServed"},"SourceContext":"Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware","RequestId":"0HLR6V5D3KD49:00000019","RequestPath":"/js/site.js","SpanId":"|849ad9dc-4b759b03040584b6.","TraceId":"849ad9dc-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:49:09.3259916+00:00","Level":"Information","MessageTemplate":"Sending file. Request path: '{VirtualPath}'. Physical path: '{PhysicalPath}'","Properties":{"VirtualPath":"/lib/jquery/dist/jquery.min.js","PhysicalPath":"C:\\Users\\Duho\\source\\repos\\SerilogDemoApp\\SerilogDemo\\wwwroot\\lib\\jquery\\dist\\jquery.min.js","EventId":{"Id":2,"Name":"FileServed"},"SourceContext":"Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware","RequestId":"0HLR6V5D3KD49:00000015","RequestPath":"/lib/jquery/dist/jquery.min.js","SpanId":"|849ad9da-4b759b03040584b6.","TraceId":"849ad9da-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:49:09.3261102+00:00","Level":"Information","MessageTemplate":"Sending file. Request path: '{VirtualPath}'. Physical path: '{PhysicalPath}'","Properties":{"VirtualPath":"/lib/bootstrap/dist/js/bootstrap.bundle.min.js","PhysicalPath":"C:\\Users\\Duho\\source\\repos\\SerilogDemoApp\\SerilogDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js","EventId":{"Id":2,"Name":"FileServed"},"SourceContext":"Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware","RequestId":"0HLR6V5D3KD49:00000017","RequestPath":"/lib/bootstrap/dist/js/bootstrap.bundle.min.js","SpanId":"|849ad9db-4b759b03040584b6.","TraceId":"849ad9db-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":11}}
+{"Timestamp":"2019-11-11T22:49:09.3441702+00:00","Level":"Information","MessageTemplate":"{HostingRequestFinishedLog:l}","Properties":{"ElapsedMilliseconds":681.4538,"StatusCode":200,"ContentType":"application/javascript","HostingRequestFinishedLog":"Request finished in 681.4538ms 200 application/javascript","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HLR6V5D3KD49:00000017","RequestPath":"/lib/bootstrap/dist/js/bootstrap.bundle.min.js","SpanId":"|849ad9db-4b759b03040584b6.","TraceId":"849ad9db-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":11},"Renderings":{"HostingRequestFinishedLog":[{"Format":"l","Rendering":"Request finished in 681.4538ms 200 application/javascript"}]}}
+{"Timestamp":"2019-11-11T22:49:09.3342518+00:00","Level":"Information","MessageTemplate":"{HostingRequestFinishedLog:l}","Properties":{"ElapsedMilliseconds":663.8231000000001,"StatusCode":200,"ContentType":"application/javascript","HostingRequestFinishedLog":"Request finished in 663.8231000000001ms 200 application/javascript","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HLR6V5D3KD49:00000019","RequestPath":"/js/site.js","SpanId":"|849ad9dc-4b759b03040584b6.","TraceId":"849ad9dc-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":8},"Renderings":{"HostingRequestFinishedLog":[{"Format":"l","Rendering":"Request finished in 663.8231000000001ms 200 application/javascript"}]}}
+{"Timestamp":"2019-11-11T22:49:09.3391912+00:00","Level":"Information","MessageTemplate":"{HostingRequestFinishedLog:l}","Properties":{"ElapsedMilliseconds":964.73,"StatusCode":200,"ContentType":"application/javascript","HostingRequestFinishedLog":"Request finished in 964.73ms 200 application/javascript","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HLR6V5D3KD49:00000015","RequestPath":"/lib/jquery/dist/jquery.min.js","SpanId":"|849ad9da-4b759b03040584b6.","TraceId":"849ad9da-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":4},"Renderings":{"HostingRequestFinishedLog":[{"Format":"l","Rendering":"Request finished in 964.73ms 200 application/javascript"}]}}
+{"Timestamp":"2019-11-11T22:49:09.3284683+00:00","Level":"Information","MessageTemplate":"Sending file. Request path: '{VirtualPath}'. Physical path: '{PhysicalPath}'","Properties":{"VirtualPath":"/lib/bootstrap/dist/css/bootstrap.min.css","PhysicalPath":"C:\\Users\\Duho\\source\\repos\\SerilogDemoApp\\SerilogDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css","EventId":{"Id":2,"Name":"FileServed"},"SourceContext":"Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware","RequestId":"0HLR6V5D3KD49:00000011","RequestPath":"/lib/bootstrap/dist/css/bootstrap.min.css","SpanId":"|849ad9d8-4b759b03040584b6.","TraceId":"849ad9d8-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":5}}
+{"Timestamp":"2019-11-11T22:49:09.3624870+00:00","Level":"Information","MessageTemplate":"{HostingRequestFinishedLog:l}","Properties":{"ElapsedMilliseconds":988.6124000000001,"StatusCode":200,"ContentType":"text/css","HostingRequestFinishedLog":"Request finished in 988.6124000000001ms 200 text/css","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HLR6V5D3KD49:00000011","RequestPath":"/lib/bootstrap/dist/css/bootstrap.min.css","SpanId":"|849ad9d8-4b759b03040584b6.","TraceId":"849ad9d8-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":5},"Renderings":{"HostingRequestFinishedLog":[{"Format":"l","Rendering":"Request finished in 988.6124000000001ms 200 text/css"}]}}
+{"Timestamp":"2019-11-11T22:49:09.8223332+00:00","Level":"Information","MessageTemplate":"{HostingRequestStartingLog:l}","Properties":{"Protocol":"HTTP/2","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"https","Host":"localhost:5001","PathBase":"","Path":"/favicon.ico","QueryString":"","HostingRequestStartingLog":"Request starting HTTP/2 GET https://localhost:5001/favicon.ico  ","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HLR6V5D3KD49:0000001B","RequestPath":"/favicon.ico","SpanId":"|849ad9dd-4b759b03040584b6.","TraceId":"849ad9dd-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":5},"Renderings":{"HostingRequestStartingLog":[{"Format":"l","Rendering":"Request starting HTTP/2 GET https://localhost:5001/favicon.ico  "}]}}
+{"Timestamp":"2019-11-11T22:49:09.8431242+00:00","Level":"Information","MessageTemplate":"Sending file. Request path: '{VirtualPath}'. Physical path: '{PhysicalPath}'","Properties":{"VirtualPath":"/favicon.ico","PhysicalPath":"C:\\Users\\Duho\\source\\repos\\SerilogDemoApp\\SerilogDemo\\wwwroot\\favicon.ico","EventId":{"Id":2,"Name":"FileServed"},"SourceContext":"Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware","RequestId":"0HLR6V5D3KD49:0000001B","RequestPath":"/favicon.ico","SpanId":"|849ad9dd-4b759b03040584b6.","TraceId":"849ad9dd-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":5}}
+{"Timestamp":"2019-11-11T22:49:09.8495541+00:00","Level":"Information","MessageTemplate":"{HostingRequestFinishedLog:l}","Properties":{"ElapsedMilliseconds":27.808200000000003,"StatusCode":200,"ContentType":"image/x-icon","HostingRequestFinishedLog":"Request finished in 27.808200000000003ms 200 image/x-icon","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HLR6V5D3KD49:0000001B","RequestPath":"/favicon.ico","SpanId":"|849ad9dd-4b759b03040584b6.","TraceId":"849ad9dd-4b759b03040584b6","ParentId":"","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":5},"Renderings":{"HostingRequestFinishedLog":[{"Format":"l","Rendering":"Request finished in 27.808200000000003ms 200 image/x-icon"}]}}
+{"Timestamp":"2019-11-11T22:51:49.3738480+00:00","Level":"Information","MessageTemplate":"Application is shutting down...","Properties":{"SourceContext":"Microsoft.Hosting.Lifetime","MachineName":"DUHO-PC","ProcessId":14564,"ThreadId":2}}
+{"Timestamp":"2019-11-11T22:52:02.5664336+00:00","Level":"Information","MessageTemplate":"Application starting up","Properties":{"MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":1}}
+{"Timestamp":"2019-11-11T22:52:09.4767216+00:00","Level":"Information","MessageTemplate":"User profile is available. Using '{FullName}' as key repository and Windows DPAPI to encrypt keys at rest.","Properties":{"FullName":"C:\\Users\\Duho\\AppData\\Local\\ASP.NET\\DataProtection-Keys","SourceContext":"Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":1}}
+{"Timestamp":"2019-11-11T22:52:10.0193627+00:00","Level":"Information","MessageTemplate":"Now listening on: {address}","Properties":{"address":"https://localhost:5001","SourceContext":"Microsoft.Hosting.Lifetime","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":1}}
+{"Timestamp":"2019-11-11T22:52:10.0512053+00:00","Level":"Information","MessageTemplate":"Now listening on: {address}","Properties":{"address":"http://localhost:5000","SourceContext":"Microsoft.Hosting.Lifetime","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":1}}
+{"Timestamp":"2019-11-11T22:52:10.0527721+00:00","Level":"Information","MessageTemplate":"Application started. Press Ctrl+C to shut down.","Properties":{"SourceContext":"Microsoft.Hosting.Lifetime","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":1}}
+{"Timestamp":"2019-11-11T22:52:10.0537129+00:00","Level":"Information","MessageTemplate":"Hosting environment: {envName}","Properties":{"envName":"Development","SourceContext":"Microsoft.Hosting.Lifetime","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":1}}
+{"Timestamp":"2019-11-11T22:52:10.0548275+00:00","Level":"Information","MessageTemplate":"Content root path: {contentRoot}","Properties":{"contentRoot":"C:\\Users\\Duho\\source\\repos\\SerilogDemoApp\\SerilogDemo","SourceContext":"Microsoft.Hosting.Lifetime","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":1}}
+{"Timestamp":"2019-11-11T22:52:12.3100031+00:00","Level":"Information","MessageTemplate":"{HostingRequestStartingLog:l}","Properties":{"Protocol":"HTTP/2","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"https","Host":"localhost:5001","PathBase":"","Path":"/","QueryString":"","HostingRequestStartingLog":"Request starting HTTP/2 GET https://localhost:5001/  ","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4},"Renderings":{"HostingRequestStartingLog":[{"Format":"l","Rendering":"Request starting HTTP/2 GET https://localhost:5001/  "}]}}
+{"Timestamp":"2019-11-11T22:52:12.3867287+00:00","Level":"Information","MessageTemplate":"Executing endpoint '{EndpointName}'","Properties":{"EndpointName":"/Index","EventId":{"Name":"ExecutingEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.4981751+00:00","Level":"Information","MessageTemplate":"Route matched with {RouteData}. Executing page {PageName}","Properties":{"RouteData":"{page = \"/Index\"}","PageName":"/Index","EventId":{"Id":3,"Name":"PageExecuting"},"SourceContext":"Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5165871+00:00","Level":"Information","MessageTemplate":"Executing handler method {HandlerName} - ModelState is {ValidationState}","Properties":{"HandlerName":"SerilogDemo.Pages.IndexModel.OnGet","ValidationState":"Valid","EventId":{"Id":101,"Name":"ExecutingHandlerMethod"},"SourceContext":"Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5203001+00:00","Level":"Information","MessageTemplate":"You requested a page!","Properties":{"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5211033+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":0,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5225419+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":1,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5250944+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":2,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5282495+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":3,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5292600+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":4,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5302547+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":5,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5313657+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":6,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5325953+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":7,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5335810+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":8,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5344190+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":9,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5353156+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":10,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5361694+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":11,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5381800+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":12,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5393576+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":13,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5407433+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":14,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5416280+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":15,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5429381+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":16,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5440803+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":17,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5454591+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":18,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5491821+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":19,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5511923+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":20,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5527498+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":21,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5542266+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":22,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5599882+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":23,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5616063+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":24,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5631245+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":25,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5645528+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":26,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5659880+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":27,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5675816+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":28,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5706547+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":29,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5724312+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":30,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5748325+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":31,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5787278+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":32,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5803670+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":33,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5820120+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":34,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5834415+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":35,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5848742+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":36,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5868019+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":37,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5914575+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":38,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5940984+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":39,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5955284+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":40,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5969379+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":41,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.5996335+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":42,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.6016342+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":43,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.6035547+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":44,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.6051193+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":45,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.6097426+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":46,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.6113746+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":47,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.6128549+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":48,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.6143068+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":49,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.6158399+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":50,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.6205785+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":51,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.6226658+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":52,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.6266175+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":53,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.6281932+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":54,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.6309338+00:00","Level":"Information","MessageTemplate":"The value of i is {loopCountValue}","Properties":{"loopCountValue":55,"SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.8961776+00:00","Level":"Error","MessageTemplate":"We caught an {exception} on the get call","Properties":{"exception":"System.Exception: This is our demo exception\r\n   at SerilogDemo.Pages.IndexModel.OnGet() in C:\\Users\\Duho\\source\\repos\\SerilogDemoApp\\SerilogDemo\\Pages\\Index.cshtml.cs:line 28","SourceContext":"SerilogDemo.Pages.IndexModel","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.9044855+00:00","Level":"Information","MessageTemplate":"Executed handler method {HandlerName}, returned result {ActionResult}.","Properties":{"HandlerName":"OnGet","ActionResult":"","EventId":{"Id":102,"Name":"ExecutedHandlerMethod"},"SourceContext":"Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.9188072+00:00","Level":"Information","MessageTemplate":"Executing an implicit handler method - ModelState is {ValidationState}","Properties":{"ValidationState":"Valid","EventId":{"Id":103,"Name":"ExecutingImplicitHandlerMethod"},"SourceContext":"Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:12.9202923+00:00","Level":"Information","MessageTemplate":"Executed an implicit handler method, returned result {ActionResult}.","Properties":{"ActionResult":"Microsoft.AspNetCore.Mvc.RazorPages.PageResult","EventId":{"Id":104,"Name":"ExecutedImplicitHandlerMethod"},"SourceContext":"Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:13.1319546+00:00","Level":"Information","MessageTemplate":"Executed page {PageName} in {ElapsedMilliseconds}ms","Properties":{"PageName":"/Index","ElapsedMilliseconds":621.7113,"EventId":{"Id":4,"Name":"PageExecuted"},"SourceContext":"Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker","ActionId":"ac808800-1804-4b93-9fbb-1655f77ae872","ActionName":"/Index","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:13.1366681+00:00","Level":"Information","MessageTemplate":"Executed endpoint '{EndpointName}'","Properties":{"EndpointName":"/Index","EventId":{"Id":1,"Name":"ExecutedEndpoint"},"SourceContext":"Microsoft.AspNetCore.Routing.EndpointMiddleware","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:13.1616860+00:00","Level":"Information","MessageTemplate":"HTTP {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed:0.0000} ms","Properties":{"RequestMethod":"GET","RequestPath":"/","StatusCode":200,"Elapsed":830.2142,"SourceContext":"Serilog.AspNetCore.RequestLoggingMiddleware","RequestId":"0HLR6V74IP6TE:0000000F","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4},"Renderings":{"Elapsed":[{"Format":"0.0000","Rendering":"830.2142"}]}}
+{"Timestamp":"2019-11-11T22:52:13.1786104+00:00","Level":"Information","MessageTemplate":"{HostingRequestFinishedLog:l}","Properties":{"ElapsedMilliseconds":874.514,"StatusCode":200,"ContentType":"text/html; charset=utf-8","HostingRequestFinishedLog":"Request finished in 874.514ms 200 text/html; charset=utf-8","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HLR6V74IP6TE:0000000F","RequestPath":"/","SpanId":"|98c0bab0-4a51aff141bc2aba.","TraceId":"98c0bab0-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4},"Renderings":{"HostingRequestFinishedLog":[{"Format":"l","Rendering":"Request finished in 874.514ms 200 text/html; charset=utf-8"}]}}
+{"Timestamp":"2019-11-11T22:52:13.2620601+00:00","Level":"Information","MessageTemplate":"{HostingRequestStartingLog:l}","Properties":{"Protocol":"HTTP/2","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"https","Host":"localhost:5001","PathBase":"","Path":"/lib/bootstrap/dist/css/bootstrap.min.css","QueryString":"","HostingRequestStartingLog":"Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  ","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HLR6V74IP6TE:00000011","RequestPath":"/lib/bootstrap/dist/css/bootstrap.min.css","SpanId":"|98c0bab2-4a51aff141bc2aba.","TraceId":"98c0bab2-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":13},"Renderings":{"HostingRequestStartingLog":[{"Format":"l","Rendering":"Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  "}]}}
+{"Timestamp":"2019-11-11T22:52:13.2622436+00:00","Level":"Information","MessageTemplate":"{HostingRequestStartingLog:l}","Properties":{"Protocol":"HTTP/2","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"https","Host":"localhost:5001","PathBase":"","Path":"/lib/jquery/dist/jquery.min.js","QueryString":"","HostingRequestStartingLog":"Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  ","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HLR6V74IP6TE:00000015","RequestPath":"/lib/jquery/dist/jquery.min.js","SpanId":"|98c0bab3-4a51aff141bc2aba.","TraceId":"98c0bab3-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":8},"Renderings":{"HostingRequestStartingLog":[{"Format":"l","Rendering":"Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  "}]}}
+{"Timestamp":"2019-11-11T22:52:13.2621294+00:00","Level":"Information","MessageTemplate":"{HostingRequestStartingLog:l}","Properties":{"Protocol":"HTTP/2","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"https","Host":"localhost:5001","PathBase":"","Path":"/css/site.css","QueryString":"","HostingRequestStartingLog":"Request starting HTTP/2 GET https://localhost:5001/css/site.css  ","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HLR6V74IP6TE:00000013","RequestPath":"/css/site.css","SpanId":"|98c0bab1-4a51aff141bc2aba.","TraceId":"98c0bab1-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":10},"Renderings":{"HostingRequestStartingLog":[{"Format":"l","Rendering":"Request starting HTTP/2 GET https://localhost:5001/css/site.css  "}]}}
+{"Timestamp":"2019-11-11T22:52:13.2809180+00:00","Level":"Information","MessageTemplate":"{HostingRequestStartingLog:l}","Properties":{"Protocol":"HTTP/2","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"https","Host":"localhost:5001","PathBase":"","Path":"/lib/bootstrap/dist/js/bootstrap.bundle.min.js","QueryString":"","HostingRequestStartingLog":"Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  ","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HLR6V74IP6TE:00000017","RequestPath":"/lib/bootstrap/dist/js/bootstrap.bundle.min.js","SpanId":"|98c0bab4-4a51aff141bc2aba.","TraceId":"98c0bab4-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4},"Renderings":{"HostingRequestStartingLog":[{"Format":"l","Rendering":"Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  "}]}}
+{"Timestamp":"2019-11-11T22:52:13.2999996+00:00","Level":"Information","MessageTemplate":"Sending file. Request path: '{VirtualPath}'. Physical path: '{PhysicalPath}'","Properties":{"VirtualPath":"/lib/jquery/dist/jquery.min.js","PhysicalPath":"C:\\Users\\Duho\\source\\repos\\SerilogDemoApp\\SerilogDemo\\wwwroot\\lib\\jquery\\dist\\jquery.min.js","EventId":{"Id":2,"Name":"FileServed"},"SourceContext":"Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware","RequestId":"0HLR6V74IP6TE:00000015","RequestPath":"/lib/jquery/dist/jquery.min.js","SpanId":"|98c0bab3-4a51aff141bc2aba.","TraceId":"98c0bab3-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:52:13.3008342+00:00","Level":"Information","MessageTemplate":"Sending file. Request path: '{VirtualPath}'. Physical path: '{PhysicalPath}'","Properties":{"VirtualPath":"/css/site.css","PhysicalPath":"C:\\Users\\Duho\\source\\repos\\SerilogDemoApp\\SerilogDemo\\wwwroot\\css\\site.css","EventId":{"Id":2,"Name":"FileServed"},"SourceContext":"Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware","RequestId":"0HLR6V74IP6TE:00000013","RequestPath":"/css/site.css","SpanId":"|98c0bab1-4a51aff141bc2aba.","TraceId":"98c0bab1-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":10}}
+{"Timestamp":"2019-11-11T22:52:13.3186191+00:00","Level":"Information","MessageTemplate":"{HostingRequestFinishedLog:l}","Properties":{"ElapsedMilliseconds":56.096700000000006,"StatusCode":200,"ContentType":"application/javascript","HostingRequestFinishedLog":"Request finished in 56.096700000000006ms 200 application/javascript","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HLR6V74IP6TE:00000015","RequestPath":"/lib/jquery/dist/jquery.min.js","SpanId":"|98c0bab3-4a51aff141bc2aba.","TraceId":"98c0bab3-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":8},"Renderings":{"HostingRequestFinishedLog":[{"Format":"l","Rendering":"Request finished in 56.096700000000006ms 200 application/javascript"}]}}
+{"Timestamp":"2019-11-11T22:52:13.3278136+00:00","Level":"Information","MessageTemplate":"{HostingRequestStartingLog:l}","Properties":{"Protocol":"HTTP/2","Method":"GET","ContentType":null,"ContentLength":null,"Scheme":"https","Host":"localhost:5001","PathBase":"","Path":"/js/site.js","QueryString":"?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18","HostingRequestStartingLog":"Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  ","EventId":{"Id":1},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HLR6V74IP6TE:00000019","RequestPath":"/js/site.js","SpanId":"|98c0bab5-4a51aff141bc2aba.","TraceId":"98c0bab5-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":13},"Renderings":{"HostingRequestStartingLog":[{"Format":"l","Rendering":"Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  "}]}}
+{"Timestamp":"2019-11-11T22:52:13.3205760+00:00","Level":"Information","MessageTemplate":"{HostingRequestFinishedLog:l}","Properties":{"ElapsedMilliseconds":58.4442,"StatusCode":200,"ContentType":"text/css","HostingRequestFinishedLog":"Request finished in 58.4442ms 200 text/css","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HLR6V74IP6TE:00000013","RequestPath":"/css/site.css","SpanId":"|98c0bab1-4a51aff141bc2aba.","TraceId":"98c0bab1-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":10},"Renderings":{"HostingRequestFinishedLog":[{"Format":"l","Rendering":"Request finished in 58.4442ms 200 text/css"}]}}
+{"Timestamp":"2019-11-11T22:52:13.3318758+00:00","Level":"Information","MessageTemplate":"Sending file. Request path: '{VirtualPath}'. Physical path: '{PhysicalPath}'","Properties":{"VirtualPath":"/js/site.js","PhysicalPath":"C:\\Users\\Duho\\source\\repos\\SerilogDemoApp\\SerilogDemo\\wwwroot\\js\\site.js","EventId":{"Id":2,"Name":"FileServed"},"SourceContext":"Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware","RequestId":"0HLR6V74IP6TE:00000019","RequestPath":"/js/site.js","SpanId":"|98c0bab5-4a51aff141bc2aba.","TraceId":"98c0bab5-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":13}}
+{"Timestamp":"2019-11-11T22:52:13.3346406+00:00","Level":"Information","MessageTemplate":"Sending file. Request path: '{VirtualPath}'. Physical path: '{PhysicalPath}'","Properties":{"VirtualPath":"/lib/bootstrap/dist/css/bootstrap.min.css","PhysicalPath":"C:\\Users\\Duho\\source\\repos\\SerilogDemoApp\\SerilogDemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css","EventId":{"Id":2,"Name":"FileServed"},"SourceContext":"Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware","RequestId":"0HLR6V74IP6TE:00000011","RequestPath":"/lib/bootstrap/dist/css/bootstrap.min.css","SpanId":"|98c0bab2-4a51aff141bc2aba.","TraceId":"98c0bab2-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":8}}
+{"Timestamp":"2019-11-11T22:52:13.3346406+00:00","Level":"Information","MessageTemplate":"Sending file. Request path: '{VirtualPath}'. Physical path: '{PhysicalPath}'","Properties":{"VirtualPath":"/lib/bootstrap/dist/js/bootstrap.bundle.min.js","PhysicalPath":"C:\\Users\\Duho\\source\\repos\\SerilogDemoApp\\SerilogDemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js","EventId":{"Id":2,"Name":"FileServed"},"SourceContext":"Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware","RequestId":"0HLR6V74IP6TE:00000017","RequestPath":"/lib/bootstrap/dist/js/bootstrap.bundle.min.js","SpanId":"|98c0bab4-4a51aff141bc2aba.","TraceId":"98c0bab4-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4}}
+{"Timestamp":"2019-11-11T22:52:13.3372956+00:00","Level":"Information","MessageTemplate":"{HostingRequestFinishedLog:l}","Properties":{"ElapsedMilliseconds":9.9425,"StatusCode":200,"ContentType":"application/javascript","HostingRequestFinishedLog":"Request finished in 9.9425ms 200 application/javascript","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HLR6V74IP6TE:00000019","RequestPath":"/js/site.js","SpanId":"|98c0bab5-4a51aff141bc2aba.","TraceId":"98c0bab5-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":13},"Renderings":{"HostingRequestFinishedLog":[{"Format":"l","Rendering":"Request finished in 9.9425ms 200 application/javascript"}]}}
+{"Timestamp":"2019-11-11T22:52:13.3449536+00:00","Level":"Information","MessageTemplate":"{HostingRequestFinishedLog:l}","Properties":{"ElapsedMilliseconds":82.9139,"StatusCode":200,"ContentType":"text/css","HostingRequestFinishedLog":"Request finished in 82.9139ms 200 text/css","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HLR6V74IP6TE:00000011","RequestPath":"/lib/bootstrap/dist/css/bootstrap.min.css","SpanId":"|98c0bab2-4a51aff141bc2aba.","TraceId":"98c0bab2-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":8},"Renderings":{"HostingRequestFinishedLog":[{"Format":"l","Rendering":"Request finished in 82.9139ms 200 text/css"}]}}
+{"Timestamp":"2019-11-11T22:52:13.3453260+00:00","Level":"Information","MessageTemplate":"{HostingRequestFinishedLog:l}","Properties":{"ElapsedMilliseconds":64.4183,"StatusCode":200,"ContentType":"application/javascript","HostingRequestFinishedLog":"Request finished in 64.4183ms 200 application/javascript","EventId":{"Id":2},"SourceContext":"Microsoft.AspNetCore.Hosting.Diagnostics","RequestId":"0HLR6V74IP6TE:00000017","RequestPath":"/lib/bootstrap/dist/js/bootstrap.bundle.min.js","SpanId":"|98c0bab4-4a51aff141bc2aba.","TraceId":"98c0bab4-4a51aff141bc2aba","ParentId":"","MachineName":"DUHO-PC","ProcessId":18300,"ThreadId":4},"Renderings":{"HostingRequestFinishedLog":[{"Format":"l","Rendering":"Request finished in 64.4183ms 200 application/javascript"}]}}
